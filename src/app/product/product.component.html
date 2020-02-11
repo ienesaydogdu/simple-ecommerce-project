@@ -1,0 +1,20 @@
+
+<div >
+    <input class="form-control" id="productName" [(ngModel)]="filterText" placeholder="Ürün adı girin"/>
+    <small class="form-text text-muted" *ngIf="filterText">Searching for <strong>{{filterText}}</strong></small>
+  </div>
+<ng-template #noProduct>
+    <div class="alert alert-primary" role="alert">
+        There are no products in this category.
+    </div>
+</ng-template>
+<div class="row">
+    <div class="card" style="width: 18rem;" *ngFor="let product of products | productFilter:filterText" class="productbox">
+        <img class="card-img-top" [src]="product.imageUrl" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{product.name}}</h5>
+            <p class="card-text">{{product.description}} Price:{{product.price | currency}}</p>
+            <a (click)="addToCart(product)" class="btn btn-primary">Add to Cart</a>
+        </div>
+    </div>
+</div>
