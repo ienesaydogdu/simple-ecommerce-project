@@ -17,7 +17,7 @@ export class ProductComponent implements OnInit {
   constructor(private alertifyService:AlertifyService, 
               private productService:ProductService,
               private activatedRoute:ActivatedRoute) { }
-title = 'Ürün Listesi'
+title = 'Product List'
 filterText=''
 products: product[];
 
@@ -33,7 +33,7 @@ products: product[];
   }
 
   addToCart(p:product){
-    this.alertifyService.success(p.name+" sepete eklendi.");
+    this.alertifyService.success(p.name+" added.");
   // alert(p.name+" sepete eklendi.");
   }
 

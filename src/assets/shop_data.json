@@ -1,14 +1,92 @@
 {
-"products":[
-			{"id":1, "name":"MSI", "price": 2800, "categoryId":1, "description":"Msi laptop","imageUrl":"https://images.unsplash.com/photo-1543269665-bd1bc9e6f296?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" },
-            {"id":2, "name":"Macbook", "price": 3000, "categoryId":1, "description":"Macbook laptop","imageUrl":"https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" },
-			{"id":3, "name":"Dell", "price": 1500, "categoryId":1, "description":"Dell laptop","imageUrl":"https://images.unsplash.com/photo-1540397106260-e24a507a08ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2261&q=80" },
-			{"id":4, "name":"Logitech Mouse", "price": 44, "categoryId":2, "description":"Logitech","imageUrl":"https://images.unsplash.com/photo-1563297007-0686b7003af7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2291&q=80" },
-			{"id":5, "name":"Microsoft Keyboard", "price": 85, "categoryId":2, "description":"Microsoft","imageUrl":"https://images.unsplash.com/photo-1563191911-b57003345f62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" },
-			{"id":6, "name":"iPhone 8", "price": 1000, "categoryId":3, "description":"Apple","imageUrl":"https://images.unsplash.com/photo-1579905595163-07fdce0d4cf7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" },
-			{"id":7, "name":"Samsung S8", "price": 800, "categoryId":3, "description":"Samsung","imageUrl":"https://images.unsplash.com/photo-1498661705887-3778d9ecb4ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" },
-			{"id":8, "name":"LG TV", "price": 1200, "categoryId":4, "description":"LG","imageUrl":"https://images.unsplash.com/photo-1560205001-a7011fc0093c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" },
-			{"id":9, "name":"Vacuum Cleaner", "price": 400, "categoryId":4, "description":"Bosch","imageUrl":"https://images.unsplash.com/photo-1558317374-067fb5f30001?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" },
-			{"id":10, "name":"Fridge", "price": 750, "categoryId":4, "description":"Whirlpool","imageUrl":"https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" }
-		]
+  "products": [
+    {
+      "id": 1,
+      "name": "MSI",
+      "price": 2800,
+      "categoryId": 1,
+      "description": "Msi laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1543269665-bd1bc9e6f296?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Macbook",
+      "price": 3000,
+      "categoryId": 1,
+      "description": "Macbook laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Dell",
+      "price": 1500,
+      "categoryId": 1,
+      "description": "Dell laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1540397106260-e24a507a08ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2261&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Logitech Mouse",
+      "price": 44,
+      "categoryId": 2,
+      "description": "Logitech",
+      "imageUrl": "https://images.unsplash.com/photo-1563297007-0686b7003af7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2291&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Microsoft Keyboard",
+      "price": 85,
+      "categoryId": 2,
+      "description": "Microsoft",
+      "imageUrl": "https://images.unsplash.com/photo-1563191911-b57003345f62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+    },
+    {
+      "id": 6,
+      "name": "iPhone 8",
+      "price": 1000,
+      "categoryId": 3,
+      "description": "Apple",
+      "imageUrl": "https://images.unsplash.com/photo-1579905595163-07fdce0d4cf7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Samsung S8",
+      "price": 800,
+      "categoryId": 3,
+      "description": "Samsung",
+      "imageUrl": "https://images.unsplash.com/photo-1498661705887-3778d9ecb4ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+    },
+    {
+      "id": 8,
+      "name": "LG TV",
+      "price": 1200,
+      "categoryId": 4,
+      "description": "LG",
+      "imageUrl": "https://images.unsplash.com/photo-1560205001-a7011fc0093c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+    },
+    {
+      "id": 9,
+      "name": "Vacuum Cleaner",
+      "price": 400,
+      "categoryId": 4,
+      "description": "Bosch",
+      "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+    },
+    {
+      "id": 10,
+      "name": "Fridge",
+      "price": 750,
+      "categoryId": 4,
+      "description": "Whirlpool",
+      "imageUrl": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+    },
+    {
+      "name": "Kingston Memory",
+      "description": "16 GB DDR4 RAM",
+      "imageUrl": "https://images.sellbrite.com/production/26210/SL8D316R11S4KF/a2da0f0a-b0b3-5756-9518-55b1b1e034ee.jpg",
+      "price": 110,
+      "categoryId": "2",
+      "id": 11
+    }
+  ]
 }
